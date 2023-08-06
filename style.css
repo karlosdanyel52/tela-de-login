@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('Lagos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteiner{
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.caixa{
+    backdrop-filter: blur(3px);
+    color: #fff;
+    border: solid #fff;
+    padding: 80px;
+    border-radius: 15px;
+}
+.titulo{
+    color: #fff;
+    font-size: 30pt;
+    font-weight: 800;
+}
+.entradas{
+    font-size: 15pt;
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+}
+.barra{
+    color: #fff;
+    font-size: 15pt;
+    padding: 15px; 
+    width: 90%;
+    border-radius: 10px; 
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    border-bottom: solid black;
+    margin-bottom: 25px;
+}
+.lembrar{ 
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit; 
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -30px;;
+}
+.bt{
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.4s ease;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+.bt:hover{
+    box-shadow: 0px 8px 12px rgba(8, 8, 8, 0.801);
+    background-color: rgb(16, 235, 107);
+}
+
+@media (max-width: 576px) {
+    .caixa{
+        width: 250px;
+        padding: 60px 40px;
+    }
+    .lembrar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        
+       
+        
+    }
+    .lembrar a{
+        padding-top: 10px;
+
+    }
+  }
+
